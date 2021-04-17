@@ -1,0 +1,34 @@
+WireFrame Link:
+https://drive.google.com/file/d/1LvaHMWzy9iAOoT9ZLD0aG3QN7Nwmxyt7/view?usp=sharing
+
+Requirements:
+
+I should be able to input First Name, Last Name, Email Address( as per State 1).
+All fields are mandatory.
+Max Length = 45
+Valid Email Address should be collected.
+Email Address should be unique and shouldn’t be able to enter existing email addresses.
+I should be able to see all the values I successfully saved ( as per State 2).
+I can delete any data saved and it should not reset the IDs assigned(Eg. #1) or position of elements.
+Example: If I delete #5, all other items would remain where it is(Refer State 3).
+I can edit any data clicking the edit icon.
+It will open the form inline and allow me to override the data.
+Validations are application here as well(as mentioned in point #1).
+Swap Feature
+While editing a form, it will also show a swap dropdown field(ref. State 3),
+User can choose any existing data #ID here(Eg. #1 or #2…. #6)
+If user chooses Swap as #2 inside Box #1.
+Data of Box’s 1 will be saved in Box #2.
+Box’s 2 will be saved in Box’s 1.
+Users cannot add more than 20 items/boxes.
+
+Guidelines:
+Follow coding best practices.
+Follow good UX Practices.
+Guide users with validation messages of what he can do or not.
+Success / Failure Messages.
+Commit this code in Private Bitbucket repo and share repo to gopi@targetbay.com
+Export the static build, zip and email it to gopi@targetbay.com.
+Or host it in https://firebase.google.com/ for free (Optional - Bonus Interview points).
+Use Local Storage as Backend.
+Or use any free cloud databases or service as a backend, such as https://firebase.google.com/ for free (Optional - Bonus Interview points).
